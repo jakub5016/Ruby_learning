@@ -14,6 +14,14 @@
 # puts 2**3
 # puts 10%3
 
-puts "Enter a number between 1 and 10"
-number = gets.chomp()
-puts ("Your number is " + number + ", Thank You!")
+# puts "Enter a number between 1 and 10"
+# number = gets.chomp()
+# puts ("Your number is " + number + ", Thank You!")
+
+
+#Convert string to number
+
+number1 = gets.chomp().to_f
+number2 = gets.chomp.to_f
+
+puts (number1 + number2)
